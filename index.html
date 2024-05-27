@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.css">
+        <title>Menu</title>
+    </head>
+    <body>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-12 text-center">
+            <img src="assets/image/tu-logo.jpg" class="img-fluid" alt="logo de la pizzeria">
+            <h1 class="poetsen-one-regular">Nuestro Menú</h1>
+          </div>
+         </div>
+        <div class="row">
+          <div class="col-12 col-lg-6">
+            <a href="#porciones"><img src="assets/image/banner.png" class="img-fluid" alt="logo de la pizzeria"></a>
+            <h2 class="text-center">Pizzas</h2>
+            <img src="assets/image/pizza.jpeg" class="card-img-top" alt="un trozo de pizza">
+            <div class="alert alert-info text-center" role="alert">¡Descubre un mundo de sabores esperándote a un clic de distancia!</div>
+            <table class="table">
+              <thead id="porciones">
+                <tr>
+                  <th scope="col">Personal x 20cm</th>
+                  <th scope="col">Mediana x 30cm</th>
+                  <th scope="col">Grande x 40cm</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>$10.00</td>
+                  <td>$18.00</td>
+                  <td>$30.00</td>
+                </tr>
+              </tbody>
+             </table>
+             <table class="table table-striped table-hover">
+              <thead class="table-dark text-center">
+                <th>Pizza</th>
+                <th>Ingredientes</th>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">Pizza Cuatro Quesos</th>
+                  <td>Salsa de tomate, mozzarella, queso azul, ...</td>
+                </tr>
+                <tr>
+                  <th scope="row">Pizza Vegetariana<span class="badge bg-primary">Nueva</span></th>
+                  <td>Salsa de tomate, mozzarella, champiñones, ...</td>
+                </tr>
+                <tr>
+                  <th scope="row">Pizza Hawaiana</th>
+                  <td>Salsa de tomate, mozzarella, jamón, piña.</td>
+                </tr>
+                <tr>
+                  <th scope="row">Pizza Pepperoni</th>
+                  <td>Salsa de tomate, mozzarella, pepperoni.</td>
+                </tr>
+                <tr>
+                  <th scope="row">Pizza Margarita<span class="badge bg-primary">Nueva</span></th>
+                  <td>Salsa de tomate, mozzarella fresca, albahaca fresca.</td>
+                </tr>
+              </tbody>
+            </table>
+            <h2 class="text-center">Bebidas</h2>
+              <img src="/assets/image/juice.jpg" class="card-img-top" alt="jugos naturales">
+              <div class="card-body">
+                <h5 class="card-title">Jugos Naturales</h5>
+                <p class="card-text">Deliciosos y saludables jugos naturales.</p>
+                <a href="#jugos"><button type="button" class="btn btn-info">Jugos Naturales</button></a>
+              </div>
+              <img src="/assets/image/soft-drink.jpg" class="card-img-top" alt="aguas y gaseosas">
+              <div class="card-body">
+                <h5 class="card-title">Aguas y Gaseosas</h5>
+                <p class="card-text">Refresca tu sed con variedad.</p>
+                <a href="#agua"><button type="button" class="btn btn-info">Aguas y Gaseosas</button></a>
+              </div>
+              <img src="/assets/image/lemonade.jpg" class="card-img-top" alt="limonadas">
+              <div class="card-body">
+                <h5 class="card-title">Limonadas</h5>
+                <p class="card-text">Frescura en cada sorbo.</p>
+                <a href="#limonada"><button type="button" class="btn btn-info">Limonadas</button></a>
+              </div>
+              <img src="/assets/image/beer.jpg" class="card-img-top" alt="cervezas">
+              <div class="card-body">
+                <h5 class="card-title">Cervezas</h5>
+                <p class="card-text">Eleva tu paladar con estilo.</p>
+                <a href="#cerveza"><button type="button" class="btn btn-info">Cervezas</button></a>
+              </div>
+          </div>
+          <div class="col-12 col-lg-6">
+            <h2 class="text-center" id="jugos">Jugos Naturales</h2>
+            <table class="table table-striped table-hover">
+              <tr class="table-primary">
+                <th>Sabor</th>
+                <th>En Agua</th>
+                <th>En Leche</th>
+              </tr>
+              <tr>
+                <td>Maracuya</td>
+                <td>$5.00</td>
+                <td>$6.00</td>
+              </tr>
+              <tr>
+                <td>Mora</td>
+                <td>$5.00</td>
+                <td>$6.00</td>
+              </tr>
+              <tr>
+                <td>Lulo</td>
+                <td>$5.00</td>
+                <td>$6.00</td>
+              </tr>
+            </table>
+            <h2 class="text-center" id="agua">Aguas y Gaseosas</h2>
+            <table class=" table table-striped table-hover">
+              <tr class="table-primary">
+                  <th>Producto</th>
+                  <th>Presentación</th>
+                  <th>Precio</th>
+            </tr>
+            <tr>
+              <td>Agua</td>
+              <td>Botella</td>
+              <td>$4.00</td>
+            </tr>
+            <tr>
+              <td>Soda</td>
+              <td>Schweppes</td>
+              <td>$4.50</td>
+            </tr>
+          <tr>
+              <td>Coca Cola</td>
+              <td>Personal</td>
+              <td>$3.00</td>
+          </tr>
+          <tr>
+            <td>Coca Cola</td>
+            <td>1 Litro</td>
+            <td>$6.00</td>
+          </tr>
+          <tr>
+            <td>Coca Cola</td>
+            <td>1.5 Litros</td>
+            <td>$7.50</td>
+          </tr>
+         </table>
+         <h2 class="text-center" id="limonada">Limonadas</h2>
+         <table class=" table table-striped table-hover">
+          <tr class="table-primary">
+            <th>Limonada</th>
+            <th>Precio</th>
+          </tr>
+          <tr>
+            <td>Limonada Fresca</td>
+            <td>$5.00</td>
+          </tr>
+          <tr>
+            <td>Limonada Tropical</td>
+            <td>$5.00</td>
+          </tr>
+          <tr>
+            <td>Limonada Chispeante</td>
+            <td>$5.00</td>
+          </tr>
+          <tr>
+            <td>Limonada Delicia Cítrica</td>
+            <td>$5.00</td>
+          </tr>
+          <tr>
+            <td>Limonada Refrescante</td>
+            <td>$5.00</td>
+          </tr>
+          <tr>
+            <td>Limonada de Verano</td>
+            <td>$5.00</td>
+          </tr>
+        </table>
+        <h2 class="text-center" id="cerveza">Cervezas</h2>
+        <table class=" table table-striped table-hover">
+          <tr class="table-dark">
+            <th>Cerveza</th>
+            <th>Precio</th>
+          </tr>
+          <tr>
+            <td>Aguila Original</td>
+            <td>$4.00</td>
+          </tr>
+          <tr>
+            <td>Aguila Light</td>
+            <td>$4.00</td>
+          </tr>
+          <tr>
+            <td>Coronita</td>
+            <td>$6.00</td>
+          </tr>
+          <tr>
+            <td>Poker</td>
+            <td>$4.00</td>
+          </tr>
+          <tr>
+            <td>Club Colombia</td>
+            <td>$4.50</td>
+          </tr>
+        </table>
+        </div>
+      </div>  
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> 
+    </body>
+
+</html>
